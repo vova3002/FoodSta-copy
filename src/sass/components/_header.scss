@@ -2,20 +2,14 @@
   background: #FEFEFE;
   box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
   display: flex;
-  &__image {
-    width: 66px;
-    height: 52px;
-  }
 }
 
 .header-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  justify-content: flex-end;
+  align-items: center;
   &__item {
     margin-right: 28px;
-    align-items: center;
-    display: flex;
   }
 
   &__link {
@@ -33,5 +27,21 @@
     width: 98px;
     height: 32px;
     margin-right: 30px;
+    cursor: pointer;
+    transition: background 250ms cubic-bezier(0.39, 0.575, 0.565, 1) 25ms;
+    &:hover {
+      background: #FFFFFF;
+      border: 2px solid #597D00;
+      border-radius: 30px;
+    }
+  }
+
+  &__image {
+    width: 66px;
+    height: 52px;
+    display: block;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
