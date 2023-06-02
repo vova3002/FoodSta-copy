@@ -1,17 +1,43 @@
 <section class="hero">
   <div class="container">
     <div class="hero__box">
-      <h2 class="hero__title">
-        Enjoy Your Favorite
-        <br />Food From Anywhere
-      </h2>
-      <p class="hero__description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse<br />
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra<br />
-        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-      </p>
-      <button class="hero__button">Order Now</button>
+      <div>
+        <h2 class="hero__title">
+          Enjoy Your Favorite
+          <br />Food From Anywhere
+        </h2>
+        <p class="hero__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse<br />
+          varius enim in eros elementum tristique. Duis cursus, mi quis
+          viverra<br />
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+        </p>
+        <button class="hero__button">Order Now</button>
+      </div>
+      <div>
+        <picture>
+          <source
+            srcset="
+              ./images/hero/hero-desctop@1x.webp 1x,
+              ./images/hero/hero-desctop@2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ./images/hero/hero-tablet@1x.webp 1x,
+              ./images/hero/hero-tablet@2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img
+            src="./images/hero/hero-desctop@1x.webp"
+            alt=""
+            class="hero__img"
+          />
+        </picture>
+      </div>
     </div>
-    <div class="hero__box"></div>
   </div>
 </section>
