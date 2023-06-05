@@ -1,0 +1,116 @@
+.offerings {
+  background-image: url(../images/offerings/offerings-backround.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 824px;
+  margin-top: -150px;
+  margin-bottom: 100px;
+}
+.offerings__box {
+  display: flex;
+  gap: 90px;
+}
+.offerings__title {
+  padding-top: 260px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+.offerings__description {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.offerings__svg-1 {
+  fill: #7eb101;
+  margin-top: 10.72px;
+  margin-left: 10.1px;
+}
+.offerings__svg-2 {
+  fill: #7eb101;
+  margin-top: 9.33px;
+  margin-left: 13.13px;
+}
+.offerings__svg-background {
+  background-color: #fefefe;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.offerings__list {
+  display: flex;
+  margin-top: 40px;
+  gap: 67px;
+}
+.offerings__item {
+  width: 253px;
+}
+.offerings__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #2c2c2c;
+  margin-top: 8px;
+}
+.offerings__item-description {
+  font-weight: 400;
+  font-style: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-top: 16px;
+  min-width: 253px;
+}
+.offerings__button {
+  margin-top: 32px;
+  width: 106px;
+  height: 40px;
+  background-color: #fff;
+  border: 2px #7eb101 solid;
+  border-radius: 30px;
+  font-weight: 500;
+  font-style: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.offerings__img {
+  position: absolute;
+  width: 396px;
+  height: 502px;
+  margin-left: 60px;
+  margin-top: -70px;
+  z-index: 1;
+}
+.offerings__img-shadow {
+  position: absolute;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #2f583f 0%,
+    rgba(105, 105, 105, 0) 100%
+  );
+  filter: blur(13px);
+  width: 252px;
+  height: 87px;
+  margin-top: 380px;
+  margin-left: 130px;
+  z-index: 0;
+}
+.offerings__img-background {
+  position: relative;
+  margin: 20px;
+  background-color: #fefefe;
+  width: 502px;
+  height: 502px;
+  border-radius: 50%;
+}
+.offerings__img-border {
+  margin-top: 231px;
+  margin-left: 16px;
+  border: 5px #fff solid;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+}
